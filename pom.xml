@@ -45,7 +45,7 @@
     </dependencies>
 
     <build>
-        <finalName>jee</finalName>
+        <finalName>spring-jee-lesson1</finalName>
 
         <plugins>
             <plugin>
@@ -79,6 +79,14 @@
                     <password>password</password>
                     <path>/client</path>
                     <update>true</update>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
                 </configuration>
             </plugin>
         </plugins>
